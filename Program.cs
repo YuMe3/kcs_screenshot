@@ -4,10 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace kcs_screenshot
 {
     static class Program
     {
+        //艦これの画面サイズは1200x720
+
         /// <summary>
         /// アプリケーションのメイン エントリ ポイントです。
         /// </summary>

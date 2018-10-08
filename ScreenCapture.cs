@@ -76,7 +76,7 @@ namespace kcs_screenshot
 
             Trimming(bmp);
 
-            var saveFileName = DateTime.Now.ToString().Replace(" ", "").Replace('/','-').Replace(":", "") + ".png";
+            var saveFileName = DateTime.Now.ToString("yyyyMMddHHmmss") + ".png";
 
             if (!isPreview)
                 bmp.Save(saveFileName, ImageFormat.Png);
